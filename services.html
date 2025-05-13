@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Ste Brooklyn Drain Clean & Plumbing</title>
+    <meta name="description" content="Explore our comprehensive drain cleaning and plumbing services in Brooklyn, NY. From emergency plumbing to preventative maintenance, we've got you covered.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        .service-detail {
+            padding: 80px 0;
+        }
+        
+        .service-detail-item {
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .service-detail-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .service-detail-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .service-detail-img img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .service-detail-text h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        
+        .service-detail-text p {
+            margin-bottom: 20px;
+            color: var(--gray-color);
+        }
+        
+        .service-detail-list {
+            margin-top: 20px;
+        }
+        
+        .service-detail-list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .service-detail-list li:before {
+            content: "\f00c";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color);
+        }
+        
+        .price-table {
+            margin-top: 30px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .price-table th, .price-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .price-table th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .price-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        @media (max-width: 768px) {
+            .service-detail-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .service-detail-img {
+                order: 1;
+            }
+            
+            .service-detail-text {
+                order: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container top-bar-content">
+                <div class="contact-info">
+                    <a href="tel:1332266378"><i class="fas fa-phone"></i> (133) 226-6378</a>
+                    <a href="mailto:info@stebrooklyndrain.com"><i class="fas fa-envelope"></i> info@stebrooklyndrain.com</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-yelp"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container logo-nav">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Ste Brooklyn Drain Clean & Plumbing Logo">
+            </a>
+            
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="tel:1332266378" class="btn">Call Now</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Page Title -->
+    <section class="hero" style="padding: 100px 0;">
+        <div class="container hero-content">
+            <h1>Our Plumbing & Drain Cleaning Services</h1>
+            <p>Comprehensive plumbing solutions for residential and commercial properties in Brooklyn.</p>
+        </div>
+    </section>
+    
+    <!-- Service Details -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-item">
+                <div class="service-detail-content">
+                    <div class="service-detail-img">
+                        <img src="images/service-1.png" alt="Drain Cleaning Service">
+                    </div>
+                    <div class="service-detail-text">
+                        <h2>Drain Cleaning</h2>
+                        <p>Our professional drain cleaning services tackle slow drains, complete blockages, and everything in between. We use specialized equipment to effectively remove hair, soap scum, food particles, and other debris that can clog your drains.</p>
+                        <p>Our technicians are equipped with both traditional drain snakes and advanced hydro-jetting technology to handle any type of clog, no matter how stubborn.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>Kitchen sink drain cleaning</li>
+                            <li>Bathroom sink drain cleaning</li>
+                            <li>Shower and bathtub drain cleaning</li>
+                            <li>Toilet unclogging</li>
+                            <li>Floor drain cleaning</li>
+                            <li>Main drain line cleaning</li>
+                        </ul>
+                        
+                        <h3>Pricing</h3>
+                        <table class="price-table">
+                            <tr>
+                                <th>Service</th>
+                                <th>Starting Price</th>
+                            </tr>
+                            <tr>
+                                <td>Basic Drain Cleaning</td>
+                                <td>$49.95</td>
+                            </tr>
+                            <tr>
+                                <td>Toilet Unclogging</td>
+                                <td>$75.00</td>
+                            </tr>
+                            <tr>
+                                <td>Main Line Cleaning</td>
+                                <td>$149.95</td>
+                            </tr>
+                            <tr>
+                                <td>Hydro-Jetting</td>
+                                <td>$299.95</td>
+                            </tr>
+                        </table>
+                        
+                        <div style="margin-top: 30px;">
+                            <a href="index.html#contact" class="btn">Request Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-detail-item">
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <h2>Sewer Line Cleaning</h2>
+                        <p>Sewer line problems can quickly escalate into major issues if not addressed promptly. Our sewer line cleaning services remove blockages and debris from your main sewer line to prevent backups and potential property damage.</p>
+                        <p>We use state-of-the-art equipment, including sewer cameras for inspection and high-pressure water jetting for thorough cleaning, to ensure your sewer lines remain in optimal condition.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>Main sewer line cleaning</li>
+                            <li>Root intrusion removal</li>
+                            <li>Grease and debris removal</li>
+                            <li>Sewer line camera inspection</li>
+                            <li>Preventative maintenance</li>
+                            <li>Sewer line repair and replacement</li>
+                        </ul>
+                        
+                        <h3>Pricing</h3>
+                        <table class="price-table">
+                            <tr>
+                                <th>Service</th>
+                                <th>Starting Price</th>
+                            </tr>
+                            <tr>
+                                <td>Basic Sewer Cleaning</td>
+                                <td>$149.95</td>
+                            </tr>
+                            <tr>
+                                <td>Camera Inspection</td>
+                                <td>$199.95</td>
+                            </tr>
+                            <tr>
+                                <td>Root Removal</td>
+                                <td>$289.95</td>
+                            </tr>
+                            <tr>
+                                <td>Hydro-Jetting</td>
+                                <td>$349.95</td>
+                            </tr>
+                        </table>
+                        
+                        <div style="margin-top: 30px;">
+                            <a href="index.html#contact" class="btn">Request Service</a>
+                        </div>
+                    </div>
+                    <div class="service-detail-img">
+                        <img src="images/service-2.png" alt="Sewer Line Cleaning">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-detail-item">
+                <div class="service-detail-content">
+                    <div class="service-detail-img">
+                        <img src="images/service-3.png" alt="Emergency Plumbing">
+                    </div>
+                    <div class="service-detail-text">
+                        <h2>Emergency Plumbing</h2>
+                        <p>Plumbing emergencies don't wait for business hours, and neither do we. Our 24/7 emergency plumbing service ensures that you can get professional help whenever you need it, day or night.</p>
+                        <p>Our emergency response team arrives quickly with the tools and expertise to handle burst pipes, major leaks, sewage backups, and other urgent plumbing situations.</p>
+                        
+                        <ul class="service-detail-list">
+                            <li>24/7 emergency response</li>
+                            <li>Burst pipe repair</li>
+                            <li>Major leak control</li>
+                            <li>Sewage backup cleanup</li>
+                            <li>Water heater emergencies</li>
+                            <li>Frozen pipe thawing</li>
+                        </ul>
+                        
+                        <h3>Pricing</h3>
+                        <table class="price-table">
+                            <tr>
+                                <th>Service</th>
+                                <th>Starting Price</th>
+                            </tr>
+                            <tr>
+                                <td>Emergency Response (Regular Hours)</td>
+                                <td>$99.95</td>
+                            </tr>
+                            <tr>
+                                <td>Emergency Response (After Hours)</td>
+                                <td>$149.95</td>
+                            </tr>
+                            <tr>
+                                <td>Burst Pipe Repair</td>
+                                <td>$199.95 + parts</td>
+                            </tr>
+                            <tr>
+                                <td>Sewage Backup</td>
+                                <td>$299.95</td>
+                            </tr>
+                        </table>
+                        
+                        <div style="margin-top: 30px;">
+                            <a href="index.html#contact" class="btn">Request Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-detail-item">
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <h2>Additional Services</h2>
+                        <p>Beyond our core drain and sewer cleaning services, Ste Brooklyn Drain Clean & Plumbing offers a comprehensive range of plumbing solutions for residential and commercial customers throughout Brooklyn.</p>
+                        
+                        <h3>Pipe Repair & Replacement</h3>
+                        <p>We provide professional pipe repair and replacement services for damaged, corroded, or leaking pipes using quality materials for lasting solutions.</p>
+                        
+                        <h3>Camera Inspection</h3>
+                        <p>Our advanced camera inspection technology identifies blockages, cracks, and other issues in your pipes without destructive digging.</p>
+                        
+                        <h3>Preventative Maintenance</h3>
+                        <p>Regular maintenance services prevent clogs, backups, and other plumbing emergencies, keeping your plumbing system in optimal condition year-round.</p>
+                        
+                        <h3>Commercial Services</h3>
+                        <p>We provide specialized drain cleaning and plumbing services for restaurants, apartment buildings, offices, retail spaces, and other commercial properties.</p>
+                        
+                        <div style="margin-top: 30px;">
+                            <a href="index.html#contact" class="btn">Request Service</a>
+                        </div>
+                    </div>
+                    <div class="service-detail-img">
+                        <img src="images/about.png" alt="Additional Plumbing Services">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Schedule Your Service?</h2>
+            <p>Contact us today for fast, reliable drain cleaning and plumbing services in Brooklyn. We're available 24/7 for all your plumbing needs.</p>
+            <a href="tel:1332266378" class="cta-number">(133) 226-6378</a>
+            <a href="index.html#contact" class="btn btn-secondary">Request Service Online</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h3>Ste Brooklyn Drain Clean & Plumbing</h3>
+                <p>Expert sewer and drain cleaning services in Brooklyn, NY. Providing fast, reliable, and affordable solutions for all your plumbing needs.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-yelp"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#services">Drain Cleaning</a></li>
+                    <li><a href="#services">Sewer Line Cleaning</a></li>
+                    <li><a href="#services">Emergency Plumbing</a></li>
+                    <li><a href="#services">Pipe Repair & Replacement</a></li>
+                    <li><a href="#services">Camera Inspection</a></li>
+                    <li><a href="#services">Preventative Maintenance</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Service Areas</h3>
+                <ul>
+                    <li><a href="#">Williamsburg</a></li>
+                    <li><a href="#">Bushwick</a></li>
+                    <li><a href="#">Bedford-Stuyvesant</a></li>
+                    <li><a href="#">Greenpoint</a></li>
+                    <li><a href="#">Crown Heights</a></li>
+                    <li><a href="#">All Brooklyn Areas</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 228 Manhattan Ave, Brooklyn, NY 11206</li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:1332266378">(133) 226-6378</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@stebrooklyndrain.com">info@stebrooklyndrain.com</a></li>
+                    <li><i class="fas fa-clock"></i> 24/7 Emergency Service</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2025 Ste Brooklyn Drain Clean & Plumbing. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    
+    <!-- JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
